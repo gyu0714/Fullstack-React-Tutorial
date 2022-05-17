@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 
 const UseState2 = () => {
-  const [naems, setNames] = useState();
+  let students = ['신현채', '성종헌'];
+  const [names, setNames] = useState(students);
   return (
     <div>
       <input type="text"></input>
       <button>Record</button>
+      {names.map((name, idx) => {
+        return <p key={idx}>{name}</p>;
+      })}
     </div>
   );
 };
