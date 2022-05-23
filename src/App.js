@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Inputs from './components/Inputs';
 // import UseReducer2 from './components/UseReducer2';
 // import ClassComponent from './components/ClassComponent';
 // import UseCallback1 from './components/UseCallback1';
@@ -11,7 +12,7 @@ import './App.css';
 // import UseMemo1 from './components/UseMemo1';
 // import UseMemo2 from './components/UseMemo2';
 // import UseState1 from './components/UseState1';
-import Storage from './components/Storage';
+// import Storage from './components/Storage';
 
 function App() {
   // const [company, setCompany] =
@@ -39,7 +40,8 @@ function App() {
       {/* <ClassComponent /> */}
       {/* <UseState1 /> */}
       {/* <UseReducer2 /> */}
-      <Storage />
+      {/* <Storage /> */}
+      <Inputs />
     </>
   );
 }
