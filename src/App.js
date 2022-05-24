@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
-import Inputs from './components/Inputs';
+import Async from './components/Async/Async';
+// import StyledComponent from './components/styled/StyledComponent';
+// import CSSModule from './components/styled/CSSModule';
+// import Inputs from './components/Inputs';
 // import UseReducer2 from './components/UseReducer2';
 // import ClassComponent from './components/ClassComponent';
 // import UseCallback1 from './components/UseCallback1';
@@ -41,7 +44,10 @@ function App() {
       {/* <UseState1 /> */}
       {/* <UseReducer2 /> */}
       {/* <Storage /> */}
-      <Inputs />
+      {/* <Inputs /> */}
+      {/* <CSSModule /> */}
+      {/* <StyledComponent /> */}
+      <Async />
     </>
   );
 }

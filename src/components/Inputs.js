@@ -34,7 +34,6 @@ const Inputs = () => {
     });
   };
 
-  // ver 2
   const resetInputs = () => {
     setInputs({
       name: '',
